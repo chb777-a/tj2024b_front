@@ -102,6 +102,7 @@ function 출차함수() {
     입차차량배열[위치] = "가능"
     document.querySelector(`#위치${차량위치}`).innerHTML = "가능"
     테이블로드()
+    선택 = 0;
 }
 
 function 정산함수(입차시간) {
